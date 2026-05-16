@@ -472,6 +472,6 @@ We sincerely thank the authors and maintainers of the following open-source proj
 
 All third-party components remain under their respective original licenses.
 
-## Licensing
+## License
 
 For licensing information see the `LICENSE` file.
