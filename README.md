@@ -453,6 +453,8 @@ After preparing the submission:
 ./result.tar.gz
 ```
 
+Notice: Although we fixed the random seed and repeated the experiments multiple times, we observed slight fluctuations in the performance of the locally trained model. The pixel-level similarity deviation across repeated runs is approximately 0.09%.
+
 [1]: https://github.com/MaticFuc/AnomalyVFM "GitHub - MaticFuc/AnomalyVFM"
 [2]: https://huggingface.co/google/tipsv2-so400m14 "google/tipsv2-so400m14 · Hugging Face"
 [3]: https://github.com/facebookresearch/segment-anything "segment-anything/README.md at main · facebookresearch/segment-anything · GitHub"
