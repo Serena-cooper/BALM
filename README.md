@@ -1,4 +1,5 @@
-# README
+# ✨ BALM: Boundary-Aligned Logit Margin Learning for Zero-Shot Industrial Anomaly Detection and Segmentation  
+*(2026 VAND4.0 Industrial Zero-Shot Track solution)*
 
 ## 0. Environment Setup
 
@@ -66,7 +67,7 @@ The model used in this project is:
 google/tipsv2-so400m14
 ```
 
-We provide a download script in the project root:
+We provide a download script in the project root of [TIPSv2][2]:
 
 ```text
 download_tipsv2.py
@@ -88,7 +89,7 @@ The model will be saved to:
 
 ### 1.3 Download SAM Weight
 
-The mask refinement stage uses SAM ViT-H:
+The mask refinement stage uses [SAM][3] ViT-H:
 
 ```text
 sam_vit_h_4b8939.pth
@@ -139,7 +140,7 @@ After downloading, place the checkpoint at:
 
 Then jump to:
 
-1. [3.2 Coarse Mask Generation](#32-coarse-mask-generation)
+[3.2 Coarse Mask Generation](#32-coarse-mask-generation)
 <!-- 2. [3.3 Mask Refinement](#33-mask-refinement)
 3. [3.4 Convert Masks to TIFF16](#34-convert-masks-to-tiff16)
 4. [3.5 Prepare Submission](#35-prepare-submission) -->
@@ -173,7 +174,7 @@ Note: `./results/anomaly_images_thresholded` should not be renamed, because `SAM
 
 ### 3.0 Download AnomalyVFM Synthetic Dataset
 
-This project uses the synthetic anomaly dataset from AnomalyVFM:
+This project uses the synthetic anomaly dataset from [AnomalyVFM][1]:
 
 ```text
 synthetic_dataset_flux_filter_dinov3
@@ -448,7 +449,7 @@ After preparing the submission:
 
 [1]: https://github.com/MaticFuc/AnomalyVFM "GitHub - MaticFuc/AnomalyVFM"
 [2]: https://huggingface.co/google/tipsv2-so400m14 "google/tipsv2-so400m14 · Hugging Face"
-[3]: https://github.com/facebookresearch/segment-anything"segment-anything/README.md at main · facebookresearch/segment-anything · GitHub"
+[3]: https://github.com/facebookresearch/segment-anything "segment-anything/README.md at main · facebookresearch/segment-anything · GitHub"
 
 ---
 
