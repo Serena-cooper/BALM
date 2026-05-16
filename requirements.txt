@@ -1,0 +1,25 @@
+--extra-index-url https://download.pytorch.org/whl/cu128
+
+ADEval==1.1.0
+annotated-doc==0.0.4
+einops==0.8.2
+huggingface_hub==0.36.2
+numpy==2.4.3
+opencv-python==4.13.0.92
+pandas==2.3.1
+Pillow==12.2.0
+PyYAML==6.0.3
+regex==2026.4.4
+requests==2.33.1
+safetensors==0.7.0
+scikit-learn==1.6.1
+scipy==1.17.1
+sentencepiece==0.2.1
+timm==1.0.26
+tokenizers==0.22.2
+torch==2.10.0
+torchaudio==2.10.0
+torchvision==0.25.0
+tqdm==4.67.3
+transformers==4.56.1
+xformers==0.0.35

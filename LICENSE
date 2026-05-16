@@ -1,0 +1,48 @@
+Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International (CC BY-NC-SA 4.0)
+=========================================================================================
+
+This work is licensed under the Creative Commons Attribution-NonCommercial-ShareAlike 4.0
+International License.
+
+To view a copy of this license, visit:
+https://creativecommons.org/licenses/by-nc-sa/4.0/
+
+You are free to:
+- Share — copy and redistribute the material in any medium or format
+- Adapt — remix, transform, and build upon the material
+
+Under the following terms:
+- Attribution — You must give appropriate credit, provide a link to the license,
+  and indicate if changes were made.
+- NonCommercial — You may not use the material for commercial purposes.
+- ShareAlike — If you remix, transform, or build upon the material, you must
+  distribute your contributions under the same license as the original.
+- No additional restrictions — You may not apply legal terms or technological
+  measures that legally restrict others from doing anything the license permits.
+
+The MVTec AD 2 dataset targeted by this repository is released under
+CC BY-NC-SA 4.0. This repository's license is chosen to be aligned with that
+constraint.
+
+This license applies to the original code and documentation of this repository,
+except where otherwise noted.
+
+------------------------------------------------------------------------------
+THIRD-PARTY CODE / MODEL LICENSES
+
+Vendored under ./mvtec_public_code is the MVTec AD 2 public code
+submission checker, if included. It is used in accordance with the original
+terms distributed with that package. See ./mvtec_public_code/ for the
+original license file or notice, if provided.
+
+Vendored under ./segment_anything is code derived from or copied from segment-anything
+(https://github.com/facebookresearch/segment-anything). segment-anything is released under the Apache License
+2.0; see ./segment_anything/ for the full text and notice.
+
+The TIPSv2 SO400m/14 weights and related code referenced by this repository are
+provided by Google under the Apache License 2.0. See:
+https://huggingface.co/google/tipsv2-so400m14
+
+All third-party components remain under their respective original licenses.
+This repository does not relicense third-party code, model weights, datasets,
+or utilities under CC BY-NC-SA 4.0.
