@@ -1,5 +1,5 @@
 # ✨ BALM: Boundary-Aligned Logit Margin Learning for Zero-Shot Industrial Anomaly Detection and Segmentation  
-*(2026 VAND4.0 Industrial Zero-Shot Track solution)*
+
 
 
 This repository contains the code for the BALM submitted to the VAND 4.0 Challenge Industrial Zero-Shot Track.
@@ -467,11 +467,11 @@ We sincerely thank the authors and maintainers of the following open-source proj
 - [TIPSv2-SO400M/14](https://huggingface.co/google/tipsv2-so400m14)
 - [Segment Anything](https://github.com/facebookresearch/segment-anything)
 - [MVTec AD 2](https://www.mvtec.com/company/research/datasets/mvtec-ad-2)
-- [Hugging Face](https://huggingface.co/)、
+- [Hugging Face](https://huggingface.co/)
 - [RoBiS](https://github.com/xrli-U/RoBiS)
 
 All third-party components remain under their respective original licenses.
 
 ## Licensing
 
-For licensing information see the `LICENSE` and `NOTICE` files.
+For licensing information see the `LICENSE` file.
