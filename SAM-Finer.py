@@ -56,7 +56,7 @@ def fill_holes(image):
 
 def samfiner(args, test_type):
     device = torch.device('cuda:0' if torch.cuda.is_available() else "cpu")
-    sam = sam_model_registry["vit_h"](checkpoint="backbones/sam_vit_h_4b8939.pth") #backbones/weights/sam_vit_b_01ec64.pth
+    sam = sam_model_registry["vit_h"](checkpoint="backbone/sam_vit_h_4b8939.pth") #backbones/weights/sam_vit_b_01ec64.pth
     predictor = SamPredictor(sam.to(device))
     dataset_dir = args.data_path
     save_dir = args.bin_savedir
