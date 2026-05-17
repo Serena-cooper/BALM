@@ -14,7 +14,7 @@ This project uses Python 3.12.
 ```bash
 conda create -n anomalyvfm python=3.12 -y
 conda activate anomalyvfm
-pip install -r requirement.txt
+pip install -r requirements.txt
 ```
 
 Recommended project layout:
