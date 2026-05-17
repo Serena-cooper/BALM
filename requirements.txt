@@ -23,3 +23,5 @@ torchvision==0.25.0
 tqdm==4.67.3
 transformers==4.56.1
 xformers==0.0.35
+tifffile==2026.5.2
+huggingface_hub==0.36.2
